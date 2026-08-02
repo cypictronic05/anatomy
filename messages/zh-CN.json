@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "Anatomy Atelier - 像艺术家一样学习解剖学",
+    "description": "在优雅、互动的解剖工作室中探索医学细节丰富的 3D 器官：心脏、大脑、肺、肝脏、肾脏、眼、肠、胰腺和皮肤。",
+    "ogDescription": "通过沉浸式、医学细节丰富的 3D 标本，像艺术家一样学习解剖学。",
+    "ogImageAlt": "一个解剖心脏标本悬浮在基座上，旁边是 Anatomy Atelier 字标",
+    "keywords": ["解剖学", "3D 解剖", "人体", "医学教育", "互动学习", "器官"]
+  },
+  "brand": {
+    "name": "Anatomy Atelier",
+    "tagline": "像艺术家一样学习解剖学",
+    "homeLabel": "Anatomy Atelier 首页"
+  },
+  "language": {
+    "ariaLabel": "选择语言",
+    "current": "当前语言：{language}",
+    "names": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "zh-CN": "简体中文"
+    },
+    "shortNames": {
+      "en": "EN",
+      "es": "ES",
+      "fr": "FR",
+      "de": "DE",
+      "zh-CN": "中文"
+    }
+  },
+  "navigation": {
+    "primaryLabel": "主导航",
+    "explore": "探索",
+    "systems": "系统",
+    "lessons": "课程",
+    "library": "资料库",
+    "notes": "笔记"
+  },
+  "common": {
+    "searchPlaceholder": "搜索器官、主题...",
+    "openLearnerProfile": "打开学习者资料",
+    "openOrganLibrary": "打开器官库",
+    "organLibrary": "器官库",
+    "closeLibrary": "关闭器官库",
+    "savedOrgans": "已保存的器官",
+    "viewAllOrgans": "查看全部器官",
+    "learningQuote": "学习是\n好奇心的行动。",
+    "keepExploring": "继续探索！",
+    "keyFacts": "关键事实",
+    "size": "大小",
+    "weight": "重量",
+    "daily": "每日",
+    "location": "位置",
+    "bloodSupply": "血液供应",
+    "function": "功能",
+    "medicalImportance": "医学意义",
+    "didYouKnow": "你知道吗",
+    "viewLesson": "查看课程",
+    "animate": "动画",
+    "quiz": "测验",
+    "compare": "比较",
+    "close": "关闭",
+    "continueExploring": "继续探索",
+    "primaryRole": "主要作用",
+    "scale": "尺度",
+    "system": "系统",
+    "reference": "参考",
+    "comparing": "正在比较",
+    "versus": "vs.",
+    "lessonCount": "{count} 节课程"
+  },
+  "viewer": {
+    "ariaLabel": "{organName} 互动查看器",
+    "toolsLabel": "3D 查看器工具",
+    "instructionsLabel": "查看器说明",
+    "tools": {
+      "rotate": "旋转",
+      "zoom": "缩放",
+      "isolate": "隔离",
+      "section": "剖面",
+      "layers": "层次",
+      "compare": "比较",
+      "reset": "重置"
+    },
+    "tip": "提示",
+    "tipBody": "拖动以旋转\n滚动以缩放\n点击圆点了解更多",
+    "preparing": "正在准备 {organName}",
+    "autoRotate": "自动旋转",
+    "caption": "3D 标本 · 点击圆点探索"
+  },
+  "cards": {
+    "resourcesLabel": "{organName} 学习资源",
+    "microscopicView": "显微视图",
+    "exploreTissue": "探索组织",
+    "compareOrgans": "比较器官",
+    "openComparison": "打开比较",
+    "functionAnimation": "功能动画",
+    "playAnimation": "播放动画",
+    "playFunctionAnimation": "播放 {organName} 功能动画",
+    "clinicalNotes": "临床笔记",
+    "commonConditions": "常见疾病",
+    "seeAll": "查看全部",
+    "whereItWorks": "作用位置",
+    "seeSystem": "查看系统",
+    "seeBodyLocation": "查看 {organName} 在身体中的位置"
+  },
+  "modal": {
+    "guidedDiscovery": "引导式探索",
+    "titles": {
+      "quiz": "{organName} 快速测验",
+      "animation": "{organName} 的运动",
+      "system": "身体中的 {organName}",
+      "lesson": "走进 {organName}"
+    },
+    "quizQuestion": "哪一项最能描述 {organName}？",
+    "quizAnswers": {
+      "correct": "它在维持身体功能中承担专门作用",
+      "independent": "它完全独立工作",
+      "sleep": "它只在睡眠时活动"
+    },
+    "systemBody": "{location}。追踪 {organName} 如何连接身体其他部分。",
+    "studyBody": "跟随高亮结构，旋转标本，并把形态与功能联系起来。这个短暂的学习片段旨在建立持久的心理模型。"
+  },
+  "alt": {
+    "thumbnail": "{organName} 缩略图",
+    "anatomicalIllustration": "{organName} 解剖插图",
+    "microscopicView": "{organName} 显微组织视图",
+    "comparison": "{comparison} 解剖比较",
+    "locationFigure": "{organName} 在 {system} 中的位置示意",
+    "illustration": "{organName} 插图"
+  },
+  "organs": {
+    "heart": {
+      "name": "心脏",
+      "system": "心血管系统",
+      "description": "一种肌性器官，将血液泵送到全身，为每个细胞输送氧气和营养。",
+      "poetic": "不知疲倦的泵",
+      "size": "约等于你的拳头大小",
+      "weight": "250-350 克",
+      "location": "胸骨后方，略偏左",
+      "function": "循环含氧血液",
+      "dailyFact": "每天约跳动 100,000 次",
+      "medical": "它的电节律协调每一次心跳。",
+      "bloodSupply": "左、右冠状动脉",
+      "funFact": "在平均寿命中大约跳动 25 亿次，并且在出生前就已开始跳动。",
+      "tissue": "心肌组织",
+      "comparison": "心脏 vs. 大脑",
+      "conditions": ["冠状动脉疾病", "心律失常", "心脏瓣膜疾病", "心力衰竭", "心肌病", "心肌炎", "心房颤动", "先天性心脏缺陷"],
+      "hotspots": {
+        "aorta": {"label": "主动脉", "detail": "主要动脉"},
+        "leftAtrium": {"label": "左心房", "detail": "接收含氧血液"},
+        "rightAtrium": {"label": "右心房", "detail": "接收静脉血"},
+        "leftVentricle": {"label": "左心室", "detail": "泵血到全身"},
+        "rightVentricle": {"label": "右心室", "detail": "泵血到肺"},
+        "mitral": {"label": "二尖瓣", "detail": "防止血液反流"}
+      }
+    },
+    "brain": {
+      "name": "大脑",
+      "system": "神经系统",
+      "description": "身体的指挥中心，整合感觉、记忆、情绪和精确运动。",
+      "poetic": "内在的宇宙",
+      "size": "约两个握紧的拳头",
+      "weight": "1.3-1.4 千克",
+      "location": "受颅骨保护",
+      "function": "处理并协调信号",
+      "dailyFact": "消耗身体约 20% 的能量",
+      "medical": "数十亿神经元通过电信号和化学信号交流。",
+      "bloodSupply": "颈内动脉和椎动脉",
+      "funFact": "它本身没有痛觉受体；头痛来自周围组织。",
+      "tissue": "大脑皮层",
+      "comparison": "大脑 vs. 眼",
+      "conditions": ["偏头痛", "卒中", "神经退行性疾病", "癫痫", "创伤性脑损伤", "脑膜炎", "多发性硬化", "脑动脉瘤"],
+      "hotspots": {
+        "frontal": {"label": "额叶", "detail": "计划与运动"},
+        "parietal": {"label": "顶叶", "detail": "感觉整合"},
+        "temporal": {"label": "颞叶", "detail": "记忆与听觉"},
+        "cerebellum": {"label": "小脑", "detail": "平衡与协调"}
+      }
+    },
+    "lungs": {
+      "name": "肺",
+      "system": "呼吸系统",
+      "description": "成对器官，吸入空气，并在广阔而精细的表面上用氧气交换二氧化碳。",
+      "poetic": "生命之息",
+      "size": "每侧约 25 厘米高",
+      "weight": "两肺合计约 1 千克",
+      "location": "位于心脏两侧、胸廓内",
+      "function": "交换氧气和二氧化碳",
+      "dailyFact": "每天移动约 11,000 升空气",
+      "medical": "肺泡把网球场大小的交换表面积折叠进胸腔。",
+      "bloodSupply": "肺动脉和支气管动脉",
+      "funFact": "右肺有三叶，左肺只有两叶，为心脏留下切迹。",
+      "tissue": "肺泡组织",
+      "comparison": "肺 vs. 心脏",
+      "conditions": ["哮喘", "慢性阻塞性肺疾病", "肺炎", "肺栓塞", "肺纤维化", "支气管炎", "囊性纤维化", "肺癌"],
+      "hotspots": {
+        "trachea": {"label": "气管", "detail": "将空气送入肺"},
+        "rightLung": {"label": "右肺", "detail": "三叶"},
+        "leftLung": {"label": "左肺", "detail": "两叶，为心脏留出空间"},
+        "bronchus": {"label": "支气管", "detail": "分支气道"},
+        "base": {"label": "肺底", "detail": "位于膈肌上方"}
+      }
+    },
+    "liver": {
+      "name": "肝脏",
+      "system": "消化系统",
+      "description": "一种卓越的代谢器官，过滤血液、处理营养物质并产生胆汁。",
+      "poetic": "安静的炼金师",
+      "size": "约一个足球大小",
+      "weight": "1.4-1.6 千克",
+      "location": "右上腹",
+      "function": "代谢、解毒和胆汁生成",
+      "dailyFact": "执行 500 多项功能",
+      "medical": "它可以再生相当一部分丢失的组织。",
+      "bloodSupply": "肝动脉和门静脉",
+      "funFact": "它是唯一能从一小部分重新长到完整大小的人体器官。",
+      "tissue": "肝小叶",
+      "comparison": "肝脏 vs. 肠",
+      "conditions": ["脂肪性肝病", "肝炎", "肝硬化", "胆结石", "血色病", "肝癌", "自身免疫性肝炎", "门静脉高压"],
+      "hotspots": {
+        "rightLobe": {"label": "右叶", "detail": "最大的肝叶"},
+        "leftLobe": {"label": "左叶", "detail": "跨越中线"},
+        "portal": {"label": "门静脉", "detail": "富含营养的流入通道"}
+      }
+    },
+    "kidneys": {
+      "name": "肾脏",
+      "system": "泌尿系统",
+      "description": "成对的过滤器官，调节体液、电解质、血压和废物排出。",
+      "poetic": "大师级过滤器",
+      "size": "每个约一只电脑鼠标大小",
+      "weight": "每个 120-170 克",
+      "location": "脊柱两侧、肋骨下方",
+      "function": "过滤血液并形成尿液",
+      "dailyFact": "每天约过滤 180 升液体",
+      "medical": "肾单位精细调节血液中的化学成分。",
+      "bloodSupply": "肾动脉",
+      "funFact": "它们几乎会回收过滤出的全部物质；只有约 1-2 升以尿液形式排出体外。",
+      "tissue": "肾皮质",
+      "comparison": "肾脏 vs. 肝脏",
+      "conditions": ["肾结石", "慢性肾病", "尿路感染", "肾小球肾炎", "多囊肾病", "肾性高血压", "急性肾损伤", "肾病综合征"],
+      "hotspots": {
+        "cortex": {"label": "肾皮质", "detail": "外层过滤区"},
+        "medulla": {"label": "肾髓质", "detail": "浓缩尿液"},
+        "ureter": {"label": "输尿管", "detail": "输送尿液"}
+      }
+    },
+    "eyeball": {
+      "name": "眼",
+      "system": "感觉系统",
+      "description": "一种精密的感觉器官，将聚焦光转化为被解释为视觉的神经信号。",
+      "poetic": "由光构成的窗",
+      "size": "直径约 24 毫米",
+      "weight": "约 7.5 克",
+      "location": "位于骨性眼眶内",
+      "function": "捕捉并聚焦光线",
+      "dailyFact": "进行数千次微小运动",
+      "medical": "视网膜是中枢神经系统的延伸。",
+      "bloodSupply": "眼动脉",
+      "funFact": "角膜完全没有血管；它直接从空气中获取氧气。",
+      "tissue": "视网膜层",
+      "comparison": "眼 vs. 大脑",
+      "conditions": ["近视", "白内障", "青光眼", "黄斑变性", "视网膜脱离", "干眼症", "散光", "结膜炎"],
+      "hotspots": {
+        "cornea": {"label": "角膜", "detail": "透明聚焦表面"},
+        "iris": {"label": "虹膜", "detail": "控制进光量"},
+        "optic": {"label": "视神经", "detail": "传递视觉信号"}
+      }
+    },
+    "intestine": {
+      "name": "肠",
+      "system": "消化系统",
+      "description": "折叠的消化通道，吸收营养物质，并由微生物组支持全身健康。",
+      "poetic": "内在花园",
+      "size": "展开约 6-7 米",
+      "weight": "随内容物而变化",
+      "location": "中下腹部",
+      "function": "消化和营养吸收",
+      "dailyFact": "容纳数万亿微生物",
+      "medical": "其表面通过皱襞、绒毛和微绒毛被大幅放大。",
+      "bloodSupply": "肠系膜上、下动脉",
+      "funFact": "它的内衬每几天更新一次，是人体组织中更新最快的。",
+      "tissue": "肠绒毛",
+      "comparison": "肠 vs. 肝脏",
+      "conditions": ["肠易激综合征", "炎症性肠病", "乳糜泻", "憩室炎", "肠梗阻", "结直肠息肉", "克罗恩病", "乳糖不耐受"],
+      "hotspots": {
+        "duodenum": {"label": "十二指肠", "detail": "小肠第一段"},
+        "jejunum": {"label": "空肠", "detail": "主要吸收区域"},
+        "colon": {"label": "结肠", "detail": "重新吸收水分"}
+      }
+    },
+    "pancreas": {
+      "name": "胰腺",
+      "system": "内分泌系统",
+      "description": "具有双重功能的腺体，向肠道释放消化酶，并分泌稳定血糖的激素。",
+      "poetic": "安静的调节者",
+      "size": "约 15 厘米长",
+      "weight": "70-100 克",
+      "location": "胃后方，横跨上腹部",
+      "function": "消化酶和胰岛素",
+      "dailyFact": "每天产生约 1.5 升富含酶的液体",
+      "medical": "朗格汉斯岛释放胰岛素和胰高血糖素以平衡血糖。",
+      "bloodSupply": "脾动脉和胰十二指肠动脉",
+      "funFact": "只有约 2% 负责产生激素；其余主要用于分泌消化酶。",
+      "tissue": "胰腺腺泡",
+      "comparison": "胰腺 vs. 肝脏",
+      "conditions": ["胰腺炎", "1 型糖尿病", "胰腺癌", "2 型糖尿病", "外分泌功能不全", "胰腺囊肿", "胆石性胰腺炎", "胰岛素瘤"],
+      "hotspots": {
+        "head": {"label": "胰头", "detail": "被十二指肠环抱"},
+        "body": {"label": "胰体", "detail": "横跨脊柱"},
+        "tail": {"label": "胰尾", "detail": "延伸至脾脏"},
+        "duct": {"label": "胰管", "detail": "将酶引流至肠道"}
+      }
+    },
+    "skin": {
+      "name": "皮肤",
+      "system": "皮肤系统",
+      "description": "人体最大的器官，是能感受触觉、保持水分并调节温度的活屏障。",
+      "poetic": "活的边界",
+      "size": "平铺约 2 平方米",
+      "weight": "3.5-5 千克",
+      "location": "覆盖全身",
+      "function": "保护、感知并散热",
+      "dailyFact": "每天脱落约 5 亿个细胞",
+      "medical": "三层结构 - 表皮、真皮和皮下组织 - 各自承担不同任务。",
+      "bloodSupply": "真皮血管丛",
+      "funFact": "一平方厘米皮肤可含有数百个汗腺和数米长的血管。",
+      "tissue": "表皮层",
+      "comparison": "皮肤 vs. 肠",
+      "conditions": ["湿疹", "银屑病", "黑色素瘤", "寻常痤疮", "蜂窝织炎", "接触性皮炎", "玫瑰痤疮", "白癜风"],
+      "hotspots": {
+        "epidermis": {"label": "表皮", "detail": "外层保护层"},
+        "dermis": {"label": "真皮", "detail": "神经、血管和腺体"},
+        "hypodermis": {"label": "皮下组织", "detail": "脂肪和保温"},
+        "follicle": {"label": "毛囊", "detail": "固定每根毛发"}
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "Anatomy Atelier - Anatomie lernen wie ein Künstler",
+    "description": "Erkunde medizinisch detaillierte 3D-Organe - Herz, Gehirn, Lungen, Leber, Nieren, Auge, Darm, Bauchspeicheldrüse und Haut - in einem eleganten, interaktiven Anatomie-Atelier.",
+    "ogDescription": "Lerne Anatomie wie ein Künstler mit immersiven, medizinisch detaillierten 3D-Präparaten.",
+    "ogImageAlt": "Ein anatomisches Herzpräparat schwebt über einem Sockel neben dem Anatomy Atelier Schriftzug",
+    "keywords": ["Anatomie", "3D-Anatomie", "menschlicher Körper", "medizinische Bildung", "interaktives Lernen", "Organe"]
+  },
+  "brand": {
+    "name": "Anatomy Atelier",
+    "tagline": "Anatomie lernen wie ein Künstler",
+    "homeLabel": "Startseite von Anatomy Atelier"
+  },
+  "language": {
+    "ariaLabel": "Sprache wählen",
+    "current": "Aktuelle Sprache: {language}",
+    "names": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "zh-CN": "简体中文"
+    },
+    "shortNames": {
+      "en": "EN",
+      "es": "ES",
+      "fr": "FR",
+      "de": "DE",
+      "zh-CN": "中文"
+    }
+  },
+  "navigation": {
+    "primaryLabel": "Hauptnavigation",
+    "explore": "Erkunden",
+    "systems": "Systeme",
+    "lessons": "Lektionen",
+    "library": "Bibliothek",
+    "notes": "Notizen"
+  },
+  "common": {
+    "searchPlaceholder": "Organe, Themen suchen...",
+    "openLearnerProfile": "Lernprofil öffnen",
+    "openOrganLibrary": "Organbibliothek öffnen",
+    "organLibrary": "Organbibliothek",
+    "closeLibrary": "Bibliothek schließen",
+    "savedOrgans": "Gespeicherte Organe",
+    "viewAllOrgans": "Alle Organe anzeigen",
+    "learningQuote": "Lernen ist\nein Akt der Neugier.",
+    "keepExploring": "Weiter erkunden!",
+    "keyFacts": "Wichtige Fakten",
+    "size": "Größe",
+    "weight": "Gewicht",
+    "daily": "Täglich",
+    "location": "Lage",
+    "bloodSupply": "Blutversorgung",
+    "function": "Funktion",
+    "medicalImportance": "Medizinische Bedeutung",
+    "didYouKnow": "Wusstest du schon?",
+    "viewLesson": "Lektion ansehen",
+    "animate": "Animieren",
+    "quiz": "Quiz",
+    "compare": "Vergleichen",
+    "close": "Schließen",
+    "continueExploring": "Weiter erkunden",
+    "primaryRole": "Hauptaufgabe",
+    "scale": "Maßstab",
+    "system": "System",
+    "reference": "Referenz",
+    "comparing": "Vergleich",
+    "versus": "vs.",
+    "lessonCount": "{count} Lektionen"
+  },
+  "viewer": {
+    "ariaLabel": "Interaktiver Viewer für {organName}",
+    "toolsLabel": "Werkzeuge des 3D-Viewers",
+    "instructionsLabel": "Viewer-Anweisungen",
+    "tools": {
+      "rotate": "Drehen",
+      "zoom": "Zoom",
+      "isolate": "Isolieren",
+      "section": "Schnitt",
+      "layers": "Ebenen",
+      "compare": "Vergleich",
+      "reset": "Zurück"
+    },
+    "tip": "Tipp",
+    "tipBody": "Ziehen zum Drehen\nScrollen zum Zoomen\nPunkt anklicken, um mehr zu lernen",
+    "preparing": "{organName} wird vorbereitet",
+    "autoRotate": "Auto-Drehung",
+    "caption": "3D-Präparat · Punkt anklicken zum Erkunden"
+  },
+  "cards": {
+    "resourcesLabel": "Lernressourcen zu {organName}",
+    "microscopicView": "Mikroskopische Ansicht",
+    "exploreTissue": "Gewebe erkunden",
+    "compareOrgans": "Organe vergleichen",
+    "openComparison": "Vergleich öffnen",
+    "functionAnimation": "Funktionsanimation",
+    "playAnimation": "Animation abspielen",
+    "playFunctionAnimation": "Funktionsanimation von {organName} abspielen",
+    "clinicalNotes": "Klinische Notizen",
+    "commonConditions": "Häufige Erkrankungen",
+    "seeAll": "Alle ansehen",
+    "whereItWorks": "Wo es wirkt",
+    "seeSystem": "System ansehen",
+    "seeBodyLocation": "Anzeigen, wo {organName} im Körper liegt"
+  },
+  "modal": {
+    "guidedDiscovery": "Geführte Entdeckung",
+    "titles": {
+      "quiz": "Kurzquiz: {organName}",
+      "animation": "{organName} in Bewegung",
+      "system": "{organName} im Körper",
+      "lesson": "Im Inneren von {organName}"
+    },
+    "quizQuestion": "Welche Aussage beschreibt {organName} am besten?",
+    "quizAnswers": {
+      "correct": "Es erfüllt eine spezialisierte Aufgabe zur Erhaltung des Körpers",
+      "independent": "Es arbeitet völlig unabhängig",
+      "sleep": "Es ist nur während des Schlafs aktiv"
+    },
+    "systemBody": "{location}. Verfolge, wie {organName} mit dem restlichen Körper verbunden ist.",
+    "studyBody": "Folge den hervorgehobenen Strukturen, drehe das Präparat und verbinde Form mit Funktion. Dieser kurze Lernmoment hilft, ein dauerhaftes mentales Modell aufzubauen."
+  },
+  "alt": {
+    "thumbnail": "Miniaturansicht von {organName}",
+    "anatomicalIllustration": "Anatomische Illustration von {organName}",
+    "microscopicView": "Mikroskopische Gewebeansicht von {organName}",
+    "comparison": "Anatomischer Vergleich {comparison}",
+    "locationFigure": "{organName} an seiner Lage im {system}",
+    "illustration": "Illustration von {organName}"
+  },
+  "organs": {
+    "heart": {
+      "name": "Herz",
+      "system": "Herz-Kreislauf-System",
+      "description": "Ein muskuläres Organ, das Blut durch den Körper pumpt und jede Zelle mit Sauerstoff und Nährstoffen versorgt.",
+      "poetic": "Die unermüdliche Pumpe",
+      "size": "Etwa so groß wie deine Faust",
+      "weight": "250-350 g",
+      "location": "Hinter dem Brustbein, leicht links",
+      "function": "Lässt sauerstoffreiches Blut zirkulieren",
+      "dailyFact": "Schlägt etwa 100.000 Mal",
+      "medical": "Sein elektrischer Rhythmus koordiniert jeden Herzschlag.",
+      "bloodSupply": "Linke und rechte Koronararterie",
+      "funFact": "Es schlägt in einem durchschnittlichen Leben etwa 2,5 Milliarden Mal und beginnt schon vor der Geburt.",
+      "tissue": "Herzmuskelgewebe",
+      "comparison": "Herz vs. Gehirn",
+      "conditions": ["Koronare Herzkrankheit", "Arrhythmie", "Herzklappenerkrankungen", "Herzinsuffizienz", "Kardiomyopathie", "Myokarditis", "Vorhofflimmern", "Angeborene Herzfehler"],
+      "hotspots": {
+        "aorta": {"label": "Aorta", "detail": "Hauptschlagader"},
+        "leftAtrium": {"label": "Linker Vorhof", "detail": "Nimmt sauerstoffreiches Blut auf"},
+        "rightAtrium": {"label": "Rechter Vorhof", "detail": "Nimmt venöses Blut auf"},
+        "leftVentricle": {"label": "Linke Herzkammer", "detail": "Pumpt in den Körper"},
+        "rightVentricle": {"label": "Rechte Herzkammer", "detail": "Pumpt in die Lungen"},
+        "mitral": {"label": "Mitralklappe", "detail": "Verhindert Rückfluss"}
+      }
+    },
+    "brain": {
+      "name": "Gehirn",
+      "system": "Nervensystem",
+      "description": "Die Kommandozentrale des Körpers, die Sinneseindrücke, Gedächtnis, Emotion und präzise Bewegung integriert.",
+      "poetic": "Das Universum im Inneren",
+      "size": "Etwa zwei geballte Fäuste",
+      "weight": "1,3-1,4 kg",
+      "location": "Im Schädel geschützt",
+      "function": "Verarbeitet und koordiniert Signale",
+      "dailyFact": "Verbraucht etwa 20 % der Körperenergie",
+      "medical": "Milliarden Neuronen kommunizieren über elektrische und chemische Signale.",
+      "bloodSupply": "Innere Halsschlagadern und Wirbelarterien",
+      "funFact": "Es besitzt keine eigenen Schmerzrezeptoren; Kopfschmerz entsteht in den umliegenden Geweben.",
+      "tissue": "Großhirnrinde",
+      "comparison": "Gehirn vs. Auge",
+      "conditions": ["Migräne", "Schlaganfall", "Neurodegenerative Erkrankung", "Epilepsie", "Schädel-Hirn-Trauma", "Meningitis", "Multiple Sklerose", "Gehirnaneurysma"],
+      "hotspots": {
+        "frontal": {"label": "Frontallappen", "detail": "Planung und Bewegung"},
+        "parietal": {"label": "Parietallappen", "detail": "Sensorische Integration"},
+        "temporal": {"label": "Temporallappen", "detail": "Gedächtnis und Hören"},
+        "cerebellum": {"label": "Kleinhirn", "detail": "Gleichgewicht und Koordination"}
+      }
+    },
+    "lungs": {
+      "name": "Lungen",
+      "system": "Atmungssystem",
+      "description": "Paarige Organe, die Luft aufnehmen und über eine große, empfindliche Oberfläche Sauerstoff gegen Kohlendioxid austauschen.",
+      "poetic": "Der Atem des Lebens",
+      "size": "Jeweils etwa 25 cm hoch",
+      "weight": "Etwa 1 kg für das Paar",
+      "location": "Beidseits des Herzens im Brustkorb",
+      "function": "Tauschen Sauerstoff gegen Kohlendioxid",
+      "dailyFact": "Bewegen etwa 11.000 L Luft",
+      "medical": "Alveolen falten eine Austauschfläche von der Größe eines Tennisplatzes in den Brustkorb.",
+      "bloodSupply": "Pulmonal- und Bronchialarterien",
+      "funFact": "Die rechte Lunge hat drei Lappen, die linke nur zwei, damit Platz für das Herz bleibt.",
+      "tissue": "Alveolargewebe",
+      "comparison": "Lungen vs. Herz",
+      "conditions": ["Asthma", "COPD", "Lungenentzündung", "Lungenembolie", "Lungenfibrose", "Bronchitis", "Mukoviszidose", "Lungenkrebs"],
+      "hotspots": {
+        "trachea": {"label": "Luftröhre", "detail": "Leitet Luft zu den Lungen"},
+        "rightLung": {"label": "Rechte Lunge", "detail": "Drei Lappen"},
+        "leftLung": {"label": "Linke Lunge", "detail": "Zwei Lappen, Raum für das Herz"},
+        "bronchus": {"label": "Bronchus", "detail": "Verzweigter Atemweg"},
+        "base": {"label": "Lungenbasis", "detail": "Liegt auf dem Zwerchfell"}
+      }
+    },
+    "liver": {
+      "name": "Leber",
+      "system": "Verdauungssystem",
+      "description": "Ein bemerkenswertes Stoffwechselorgan, das Blut filtert, Nährstoffe verarbeitet und Galle bildet.",
+      "poetic": "Die stille Alchemistin",
+      "size": "Etwa so groß wie ein Fußball",
+      "weight": "1,4-1,6 kg",
+      "location": "Rechter Oberbauch",
+      "function": "Stoffwechsel, Entgiftung und Galle",
+      "dailyFact": "Erfüllt mehr als 500 Funktionen",
+      "medical": "Sie kann einen erheblichen Anteil verlorenen Gewebes regenerieren.",
+      "bloodSupply": "Leberarterie und Pfortader",
+      "funFact": "Sie ist das einzige menschliche Organ, das aus einem Teilstück wieder zur vollen Größe nachwachsen kann.",
+      "tissue": "Leberläppchen",
+      "comparison": "Leber vs. Darm",
+      "conditions": ["Fettlebererkrankung", "Hepatitis", "Zirrhose", "Gallensteine", "Hämochromatose", "Leberkrebs", "Autoimmunhepatitis", "Portale Hypertonie"],
+      "hotspots": {
+        "rightLobe": {"label": "Rechter Lappen", "detail": "Größter Leberlappen"},
+        "leftLobe": {"label": "Linker Lappen", "detail": "Kreuzt die Mittellinie"},
+        "portal": {"label": "Pfortader", "detail": "Nährstoffreicher Zufluss"}
+      }
+    },
+    "kidneys": {
+      "name": "Nieren",
+      "system": "Harnsystem",
+      "description": "Paarige Filtrationsorgane, die Flüssigkeiten, Elektrolyte, Blutdruck und Abfallstoffausscheidung regulieren.",
+      "poetic": "Die Meisterfilter",
+      "size": "Jeweils etwa so groß wie eine Computermaus",
+      "weight": "Je 120-170 g",
+      "location": "Beidseits der Wirbelsäule unter den Rippen",
+      "function": "Filtern Blut und bilden Urin",
+      "dailyFact": "Filtern ungefähr 180 L Flüssigkeit",
+      "medical": "Nephrone stimmen die Chemie des Blutstroms fein ab.",
+      "bloodSupply": "Nierenarterien",
+      "funFact": "Sie gewinnen fast alles zurück, was sie filtern; nur etwa 1-2 L verlassen den Körper als Urin.",
+      "tissue": "Nierenrinde",
+      "comparison": "Nieren vs. Leber",
+      "conditions": ["Nierensteine", "Chronische Nierenerkrankung", "Harnwegsinfektion", "Glomerulonephritis", "Polyzystische Nierenerkrankung", "Renale Hypertonie", "Akute Nierenschädigung", "Nephrotisches Syndrom"],
+      "hotspots": {
+        "cortex": {"label": "Nierenrinde", "detail": "Äußere Filterschicht"},
+        "medulla": {"label": "Nierenmark", "detail": "Konzentriert den Urin"},
+        "ureter": {"label": "Harnleiter", "detail": "Transportiert Urin"}
+      }
+    },
+    "eyeball": {
+      "name": "Auge",
+      "system": "Sinnessystem",
+      "description": "Ein präzises Sinnesorgan, das gebündeltes Licht in Nervensignale umwandelt, die als Sehen interpretiert werden.",
+      "poetic": "Ein Fenster aus Licht",
+      "size": "Etwa 24 mm Durchmesser",
+      "weight": "Rund 7,5 g",
+      "location": "In der knöchernen Augenhöhle",
+      "function": "Nimmt Licht auf und fokussiert es",
+      "dailyFact": "Macht tausende winzige Bewegungen",
+      "medical": "Die Netzhaut ist eine Erweiterung des zentralen Nervensystems.",
+      "bloodSupply": "Augenarterie",
+      "funFact": "Die Hornhaut besitzt keine Blutgefäße; sie nimmt Sauerstoff direkt aus der Luft auf.",
+      "tissue": "Netzhautschichten",
+      "comparison": "Auge vs. Gehirn",
+      "conditions": ["Myopie", "Katarakt", "Glaukom", "Makuladegeneration", "Netzhautablösung", "Trockenes Auge", "Astigmatismus", "Bindehautentzündung"],
+      "hotspots": {
+        "cornea": {"label": "Hornhaut", "detail": "Klare Fokussierfläche"},
+        "iris": {"label": "Iris", "detail": "Steuert den Lichteinfall"},
+        "optic": {"label": "Sehnerv", "detail": "Leitet visuelle Signale"}
+      }
+    },
+    "intestine": {
+      "name": "Darm",
+      "system": "Verdauungssystem",
+      "description": "Ein gefalteter Verdauungsgang, in dem Nährstoffe aufgenommen werden und das Mikrobiom die Gesundheit des ganzen Körpers unterstützt.",
+      "poetic": "Der innere Garten",
+      "size": "Ausgestreckt etwa 6-7 m",
+      "weight": "Variiert je nach Inhalt",
+      "location": "Mittlerer und unterer Bauchraum",
+      "function": "Verdauung und Nährstoffaufnahme",
+      "dailyFact": "Beherbergt Billionen Mikroorganismen",
+      "medical": "Seine Oberfläche wird durch Falten, Zotten und Mikrovilli vergrößert.",
+      "bloodSupply": "Obere und untere Mesenterialarterien",
+      "funFact": "Seine Schleimhaut erneuert sich alle paar Tage - der schnellste Gewebeumsatz im Körper.",
+      "tissue": "Darmzotten",
+      "comparison": "Darm vs. Leber",
+      "conditions": ["Reizdarmsyndrom", "Chronisch-entzündliche Darmerkrankung", "Zöliakie", "Divertikulitis", "Darmverschluss", "Kolorektale Polypen", "Morbus Crohn", "Laktoseintoleranz"],
+      "hotspots": {
+        "duodenum": {"label": "Zwölffingerdarm", "detail": "Erster Abschnitt des Dünndarms"},
+        "jejunum": {"label": "Leerdarm", "detail": "Wichtige Absorptionsregion"},
+        "colon": {"label": "Dickdarm", "detail": "Gewinnt Wasser zurück"}
+      }
+    },
+    "pancreas": {
+      "name": "Bauchspeicheldrüse",
+      "system": "Endokrines System",
+      "description": "Eine Drüse mit Doppelfunktion, die Verdauungsenzyme in den Darm und Hormone zur Stabilisierung des Blutzuckers freisetzt.",
+      "poetic": "Die stille Regulatorin",
+      "size": "Etwa 15 cm lang",
+      "weight": "70-100 g",
+      "location": "Hinter dem Magen, quer im Oberbauch",
+      "function": "Verdauungsenzyme und Insulin",
+      "dailyFact": "Bildet etwa 1,5 L enzymreichen Saft",
+      "medical": "Die Langerhans-Inseln setzen Insulin und Glukagon frei, um den Blutzucker auszugleichen.",
+      "bloodSupply": "Milz- und Pankreatikoduodenalarterien",
+      "funFact": "Kaum 2 % bilden Hormone; der Rest widmet sich Verdauungsenzymen.",
+      "tissue": "Pankreasazini",
+      "comparison": "Bauchspeicheldrüse vs. Leber",
+      "conditions": ["Pankreatitis", "Typ-1-Diabetes", "Bauchspeicheldrüsenkrebs", "Typ-2-Diabetes", "Exokrine Insuffizienz", "Pankreaszysten", "Gallensteinpankreatitis", "Insulinom"],
+      "hotspots": {
+        "head": {"label": "Kopf", "detail": "Vom Zwölffingerdarm umfasst"},
+        "body": {"label": "Körper", "detail": "Kreuzt die Wirbelsäule"},
+        "tail": {"label": "Schwanz", "detail": "Reicht bis zur Milz"},
+        "duct": {"label": "Pankreasgang", "detail": "Leitet Enzyme in den Darm"}
+      }
+    },
+    "skin": {
+      "name": "Haut",
+      "system": "Integumentsystem",
+      "description": "Das größte Organ des Körpers - eine lebendige Barriere, die Berührung wahrnimmt, Wasser hält und Temperatur reguliert.",
+      "poetic": "Die lebendige Grenze",
+      "size": "Ausgebreitet etwa 2 m²",
+      "weight": "3,5-5 kg",
+      "location": "Bedeckt den gesamten Körper",
+      "function": "Schützt, spürt und kühlt",
+      "dailyFact": "Verliert etwa 500 Millionen Zellen",
+      "medical": "Drei Schichten - Epidermis, Dermis und Hypodermis - haben jeweils eine eigene Aufgabe.",
+      "bloodSupply": "Dermaler Gefäßplexus",
+      "funFact": "Ein Quadratzentimeter kann hunderte Schweißdrüsen und Meter von Blutgefäßen enthalten.",
+      "tissue": "Epidermisschichten",
+      "comparison": "Haut vs. Darm",
+      "conditions": ["Ekzem", "Psoriasis", "Melanom", "Acne vulgaris", "Zellulitis", "Kontaktdermatitis", "Rosazea", "Vitiligo"],
+      "hotspots": {
+        "epidermis": {"label": "Epidermis", "detail": "Äußere Schutzschicht"},
+        "dermis": {"label": "Dermis", "detail": "Nerven, Gefäße und Drüsen"},
+        "hypodermis": {"label": "Hypodermis", "detail": "Fett und Isolation"},
+        "follicle": {"label": "Haarfollikel", "detail": "Verankert jedes Haar"}
+      }
+    }
+  }
+}

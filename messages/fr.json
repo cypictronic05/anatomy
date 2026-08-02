@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "Anatomy Atelier - Apprendre l'anatomie comme un artiste",
+    "description": "Explorez des organes 3D médicalement détaillés - coeur, cerveau, poumons, foie, reins, oeil, intestin, pancréas et peau - dans un atelier d'anatomie élégant et interactif.",
+    "ogDescription": "Apprenez l'anatomie comme un artiste grâce à des spécimens 3D immersifs et médicalement détaillés.",
+    "ogImageAlt": "Un spécimen anatomique de coeur flottant au-dessus d'un socle, à côté du logotype Anatomy Atelier",
+    "keywords": ["anatomie", "anatomie 3D", "corps humain", "éducation médicale", "apprentissage interactif", "organes"]
+  },
+  "brand": {
+    "name": "Anatomy Atelier",
+    "tagline": "Apprendre l'anatomie comme un artiste",
+    "homeLabel": "Accueil d'Anatomy Atelier"
+  },
+  "language": {
+    "ariaLabel": "Choisir la langue",
+    "current": "Langue actuelle : {language}",
+    "names": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "zh-CN": "简体中文"
+    },
+    "shortNames": {
+      "en": "EN",
+      "es": "ES",
+      "fr": "FR",
+      "de": "DE",
+      "zh-CN": "中文"
+    }
+  },
+  "navigation": {
+    "primaryLabel": "Navigation principale",
+    "explore": "Explorer",
+    "systems": "Systèmes",
+    "lessons": "Leçons",
+    "library": "Bibliothèque",
+    "notes": "Notes"
+  },
+  "common": {
+    "searchPlaceholder": "Rechercher organes, thèmes...",
+    "openLearnerProfile": "Ouvrir le profil d'apprentissage",
+    "openOrganLibrary": "Ouvrir la bibliothèque d'organes",
+    "organLibrary": "Bibliothèque d'organes",
+    "closeLibrary": "Fermer la bibliothèque",
+    "savedOrgans": "Organes enregistrés",
+    "viewAllOrgans": "Voir tous les organes",
+    "learningQuote": "Apprendre est\nun acte de curiosité.",
+    "keepExploring": "Continuez à explorer !",
+    "keyFacts": "Faits clés",
+    "size": "Taille",
+    "weight": "Poids",
+    "daily": "Quotidien",
+    "location": "Localisation",
+    "bloodSupply": "Irrigation sanguine",
+    "function": "Fonction",
+    "medicalImportance": "Importance médicale",
+    "didYouKnow": "Le saviez-vous ?",
+    "viewLesson": "Voir la leçon",
+    "animate": "Animer",
+    "quiz": "Quiz",
+    "compare": "Comparer",
+    "close": "Fermer",
+    "continueExploring": "Continuer l'exploration",
+    "primaryRole": "Rôle principal",
+    "scale": "Échelle",
+    "system": "Système",
+    "reference": "Référence",
+    "comparing": "Comparaison",
+    "versus": "vs.",
+    "lessonCount": "{count} leçons"
+  },
+  "viewer": {
+    "ariaLabel": "Visionneuse interactive de {organName}",
+    "toolsLabel": "Outils de la visionneuse 3D",
+    "instructionsLabel": "Instructions de la visionneuse",
+    "tools": {
+      "rotate": "Tourner",
+      "zoom": "Zoom",
+      "isolate": "Isoler",
+      "section": "Coupe",
+      "layers": "Couches",
+      "compare": "Comparer",
+      "reset": "Réinitialiser"
+    },
+    "tip": "Astuce",
+    "tipBody": "Faites glisser pour tourner\nFaites défiler pour zoomer\nCliquez sur un point pour en savoir plus",
+    "preparing": "Préparation de {organName}",
+    "autoRotate": "Rotation auto",
+    "caption": "Spécimen 3D · cliquez sur un point pour explorer"
+  },
+  "cards": {
+    "resourcesLabel": "Ressources d'apprentissage sur {organName}",
+    "microscopicView": "Vue microscopique",
+    "exploreTissue": "Explorer le tissu",
+    "compareOrgans": "Comparer les organes",
+    "openComparison": "Ouvrir la comparaison",
+    "functionAnimation": "Animation fonctionnelle",
+    "playAnimation": "Lancer l'animation",
+    "playFunctionAnimation": "Lancer l'animation fonctionnelle de {organName}",
+    "clinicalNotes": "Notes cliniques",
+    "commonConditions": "Affections fréquentes",
+    "seeAll": "Tout voir",
+    "whereItWorks": "Où il agit",
+    "seeSystem": "Voir le système",
+    "seeBodyLocation": "Voir où se situe {organName} dans le corps"
+  },
+  "modal": {
+    "guidedDiscovery": "Découverte guidée",
+    "titles": {
+      "quiz": "Quiz rapide : {organName}",
+      "animation": "{organName} en mouvement",
+      "system": "{organName} dans le corps",
+      "lesson": "À l'intérieur de {organName}"
+    },
+    "quizQuestion": "Quelle affirmation décrit le mieux {organName} ?",
+    "quizAnswers": {
+      "correct": "Il joue un rôle spécialisé dans le maintien du corps",
+      "independent": "Il fonctionne de manière totalement indépendante",
+      "sleep": "Il n'est actif que pendant le sommeil"
+    },
+    "systemBody": "{location}. Suivez comment {organName} se connecte au reste du corps.",
+    "studyBody": "Suivez les structures mises en évidence, faites pivoter le spécimen et reliez la forme à la fonction. Ce court moment d'étude est conçu pour construire un modèle mental durable."
+  },
+  "alt": {
+    "thumbnail": "Vignette de {organName}",
+    "anatomicalIllustration": "Illustration anatomique de {organName}",
+    "microscopicView": "Vue microscopique du tissu de {organName}",
+    "comparison": "Comparaison anatomique {comparison}",
+    "locationFigure": "{organName} montré en place dans le {system}",
+    "illustration": "Illustration de {organName}"
+  },
+  "organs": {
+    "heart": {
+      "name": "Coeur",
+      "system": "Système cardiovasculaire",
+      "description": "Organe musculaire qui pompe le sang dans tout le corps et apporte oxygène et nutriments à chaque cellule.",
+      "poetic": "La pompe infatigable",
+      "size": "Environ la taille de votre poing",
+      "weight": "250-350 g",
+      "location": "Derrière le sternum, légèrement à gauche",
+      "function": "Fait circuler le sang oxygéné",
+      "dailyFact": "Bat environ 100 000 fois",
+      "medical": "Son rythme électrique coordonne chaque battement.",
+      "bloodSupply": "Artères coronaires gauche et droite",
+      "funFact": "Il bat environ 2,5 milliards de fois au cours d'une vie moyenne et commence avant la naissance.",
+      "tissue": "Tissu musculaire cardiaque",
+      "comparison": "Coeur vs. cerveau",
+      "conditions": ["Maladie coronarienne", "Arythmie", "Troubles des valves cardiaques", "Insuffisance cardiaque", "Cardiomyopathie", "Myocardite", "Fibrillation atriale", "Malformations cardiaques congénitales"],
+      "hotspots": {
+        "aorta": {"label": "Aorte", "detail": "Artère principale"},
+        "leftAtrium": {"label": "Oreillette gauche", "detail": "Reçoit le sang oxygéné"},
+        "rightAtrium": {"label": "Oreillette droite", "detail": "Reçoit le sang veineux"},
+        "leftVentricle": {"label": "Ventricule gauche", "detail": "Pompe vers le corps"},
+        "rightVentricle": {"label": "Ventricule droit", "detail": "Pompe vers les poumons"},
+        "mitral": {"label": "Valve mitrale", "detail": "Empêche le reflux"}
+      }
+    },
+    "brain": {
+      "name": "Cerveau",
+      "system": "Système nerveux",
+      "description": "Centre de commande du corps, il intègre sensation, mémoire, émotion et mouvement précis.",
+      "poetic": "L'univers intérieur",
+      "size": "Environ deux poings serrés",
+      "weight": "1,3-1,4 kg",
+      "location": "Protégé dans le crâne",
+      "function": "Traite et coordonne les signaux",
+      "dailyFact": "Utilise environ 20 % de l'énergie du corps",
+      "medical": "Des milliards de neurones communiquent par des signaux électriques et chimiques.",
+      "bloodSupply": "Artères carotides internes et vertébrales",
+      "funFact": "Il n'a pas de récepteurs de la douleur propres ; le mal de tête vient des tissus qui l'entourent.",
+      "tissue": "Cortex cérébral",
+      "comparison": "Cerveau vs. oeil",
+      "conditions": ["Migraine", "Accident vasculaire cérébral", "Maladie neurodégénérative", "Épilepsie", "Traumatisme crânien", "Méningite", "Sclérose en plaques", "Anévrisme cérébral"],
+      "hotspots": {
+        "frontal": {"label": "Lobe frontal", "detail": "Planification et mouvement"},
+        "parietal": {"label": "Lobe pariétal", "detail": "Intégration sensorielle"},
+        "temporal": {"label": "Lobe temporal", "detail": "Mémoire et audition"},
+        "cerebellum": {"label": "Cervelet", "detail": "Équilibre et coordination"}
+      }
+    },
+    "lungs": {
+      "name": "Poumons",
+      "system": "Système respiratoire",
+      "description": "Organes pairs qui inspirent l'air et échangent l'oxygène contre le dioxyde de carbone sur une surface vaste et délicate.",
+      "poetic": "Le souffle de la vie",
+      "size": "Environ 25 cm de haut chacun",
+      "weight": "Environ 1 kg pour la paire",
+      "location": "De chaque côté du coeur, dans la cage thoracique",
+      "function": "Échangent l'oxygène contre le dioxyde de carbone",
+      "dailyFact": "Déplacent environ 11 000 L d'air",
+      "medical": "Les alvéoles replient dans la poitrine une surface d'échange de la taille d'un court de tennis.",
+      "bloodSupply": "Artères pulmonaires et bronchiques",
+      "funFact": "Le poumon droit possède trois lobes et le gauche seulement deux, laissant une encoche pour le coeur.",
+      "tissue": "Tissu alvéolaire",
+      "comparison": "Poumons vs. coeur",
+      "conditions": ["Asthme", "BPCO", "Pneumonie", "Embolie pulmonaire", "Fibrose pulmonaire", "Bronchite", "Mucoviscidose", "Cancer du poumon"],
+      "hotspots": {
+        "trachea": {"label": "Trachée", "detail": "Conduit l'air vers les poumons"},
+        "rightLung": {"label": "Poumon droit", "detail": "Trois lobes"},
+        "leftLung": {"label": "Poumon gauche", "detail": "Deux lobes, place pour le coeur"},
+        "bronchus": {"label": "Bronche", "detail": "Voie aérienne ramifiée"},
+        "base": {"label": "Base pulmonaire", "detail": "Repose sur le diaphragme"}
+      }
+    },
+    "liver": {
+      "name": "Foie",
+      "system": "Système digestif",
+      "description": "Organe métabolique remarquable qui filtre le sang, transforme les nutriments et produit la bile.",
+      "poetic": "L'alchimiste discret",
+      "size": "Environ la taille d'un ballon de football",
+      "weight": "1,4-1,6 kg",
+      "location": "Partie supérieure droite de l'abdomen",
+      "function": "Métabolisme, détoxication et bile",
+      "dailyFact": "Assure plus de 500 fonctions",
+      "medical": "Il peut régénérer une part importante de tissu perdu.",
+      "bloodSupply": "Artère hépatique et veine porte",
+      "funFact": "C'est le seul organe humain capable de retrouver sa taille complète à partir d'une fraction de lui-même.",
+      "tissue": "Lobules hépatiques",
+      "comparison": "Foie vs. intestin",
+      "conditions": ["Stéatose hépatique", "Hépatite", "Cirrhose", "Calculs biliaires", "Hémochromatose", "Cancer du foie", "Hépatite auto-immune", "Hypertension portale"],
+      "hotspots": {
+        "rightLobe": {"label": "Lobe droit", "detail": "Plus grand lobe hépatique"},
+        "leftLobe": {"label": "Lobe gauche", "detail": "Traverse la ligne médiane"},
+        "portal": {"label": "Veine porte", "detail": "Afflux riche en nutriments"}
+      }
+    },
+    "kidneys": {
+      "name": "Reins",
+      "system": "Système urinaire",
+      "description": "Organes de filtration pairs qui équilibrent les liquides, les électrolytes, la pression artérielle et l'élimination des déchets.",
+      "poetic": "Les maîtres filtres",
+      "size": "Chacun a environ la taille d'une souris d'ordinateur",
+      "weight": "120-170 g chacun",
+      "location": "De chaque côté de la colonne, sous les côtes",
+      "function": "Filtrent le sang et forment l'urine",
+      "dailyFact": "Filtrent environ 180 L de liquide",
+      "medical": "Les néphrons ajustent finement la chimie du sang.",
+      "bloodSupply": "Artères rénales",
+      "funFact": "Ils récupèrent presque tout ce qu'ils filtrent ; seuls 1-2 L environ quittent le corps sous forme d'urine.",
+      "tissue": "Cortex rénal",
+      "comparison": "Reins vs. foie",
+      "conditions": ["Calculs rénaux", "Maladie rénale chronique", "Infection urinaire", "Glomérulonéphrite", "Polykystose rénale", "Hypertension rénale", "Insuffisance rénale aiguë", "Syndrome néphrotique"],
+      "hotspots": {
+        "cortex": {"label": "Cortex rénal", "detail": "Couche filtrante externe"},
+        "medulla": {"label": "Médulla rénale", "detail": "Concentre l'urine"},
+        "ureter": {"label": "Uretère", "detail": "Transporte l'urine"}
+      }
+    },
+    "eyeball": {
+      "name": "Oeil",
+      "system": "Système sensoriel",
+      "description": "Organe sensoriel de précision qui transforme la lumière focalisée en signaux nerveux interprétés comme la vision.",
+      "poetic": "Une fenêtre faite de lumière",
+      "size": "Environ 24 mm de diamètre",
+      "weight": "Environ 7,5 g",
+      "location": "Dans l'orbite osseuse",
+      "function": "Capte et focalise la lumière",
+      "dailyFact": "Effectue des milliers de petits mouvements",
+      "medical": "La rétine est une extension du système nerveux central.",
+      "bloodSupply": "Artère ophtalmique",
+      "funFact": "La cornée ne contient aucun vaisseau sanguin ; elle reçoit l'oxygène directement de l'air.",
+      "tissue": "Couches rétiniennes",
+      "comparison": "Oeil vs. cerveau",
+      "conditions": ["Myopie", "Cataracte", "Glaucome", "Dégénérescence maculaire", "Décollement de la rétine", "Sécheresse oculaire", "Astigmatisme", "Conjonctivite"],
+      "hotspots": {
+        "cornea": {"label": "Cornée", "detail": "Surface transparente de focalisation"},
+        "iris": {"label": "Iris", "detail": "Contrôle l'entrée de lumière"},
+        "optic": {"label": "Nerf optique", "detail": "Transporte les signaux visuels"}
+      }
+    },
+    "intestine": {
+      "name": "Intestin",
+      "system": "Système digestif",
+      "description": "Passage digestif replié où les nutriments sont absorbés et où le microbiome soutient la santé globale.",
+      "poetic": "Le jardin intérieur",
+      "size": "Environ 6-7 m une fois étendu",
+      "weight": "Varie selon le contenu",
+      "location": "Abdomen central et inférieur",
+      "function": "Digestion et absorption des nutriments",
+      "dailyFact": "Héberge des billions de micro-organismes",
+      "medical": "Sa surface est amplifiée par des plis, des villosités et des microvillosités.",
+      "bloodSupply": "Artères mésentériques supérieure et inférieure",
+      "funFact": "Son revêtement se renouvelle en quelques jours, le renouvellement le plus rapide de tous les tissus du corps.",
+      "tissue": "Villosités intestinales",
+      "comparison": "Intestin vs. foie",
+      "conditions": ["Syndrome de l'intestin irritable", "Maladie inflammatoire chronique de l'intestin", "Maladie coeliaque", "Diverticulite", "Occlusion intestinale", "Polypes colorectaux", "Maladie de Crohn", "Intolérance au lactose"],
+      "hotspots": {
+        "duodenum": {"label": "Duodénum", "detail": "Premier segment de l'intestin grêle"},
+        "jejunum": {"label": "Jéjunum", "detail": "Région majeure d'absorption"},
+        "colon": {"label": "Côlon", "detail": "Réabsorbe l'eau"}
+      }
+    },
+    "pancreas": {
+      "name": "Pancréas",
+      "system": "Système endocrinien",
+      "description": "Glande à double fonction qui libère des enzymes digestives dans l'intestin et des hormones qui stabilisent la glycémie.",
+      "poetic": "Le régulateur discret",
+      "size": "Environ 15 cm de long",
+      "weight": "70-100 g",
+      "location": "Derrière l'estomac, à travers la partie supérieure de l'abdomen",
+      "function": "Enzymes digestives et insuline",
+      "dailyFact": "Produit environ 1,5 L de suc riche en enzymes",
+      "medical": "Les îlots de Langerhans libèrent insuline et glucagon pour équilibrer la glycémie.",
+      "bloodSupply": "Artères splénique et pancréaticoduodénales",
+      "funFact": "À peine 2 % produisent des hormones ; le reste est consacré aux enzymes digestives.",
+      "tissue": "Acini pancréatiques",
+      "comparison": "Pancréas vs. foie",
+      "conditions": ["Pancréatite", "Diabète de type 1", "Cancer du pancréas", "Diabète de type 2", "Insuffisance exocrine", "Kystes pancréatiques", "Pancréatite biliaire", "Insulinome"],
+      "hotspots": {
+        "head": {"label": "Tête", "detail": "Enserrée par le duodénum"},
+        "body": {"label": "Corps", "detail": "Traverse la colonne"},
+        "tail": {"label": "Queue", "detail": "Atteint la rate"},
+        "duct": {"label": "Canal pancréatique", "detail": "Draine les enzymes vers l'intestin"}
+      }
+    },
+    "skin": {
+      "name": "Peau",
+      "system": "Système tégumentaire",
+      "description": "Le plus grand organe du corps : une barrière vivante qui sent le toucher, retient l'eau et régule la température.",
+      "poetic": "La frontière vivante",
+      "size": "Environ 2 m² étalée",
+      "weight": "3,5-5 kg",
+      "location": "Recouvre tout le corps",
+      "function": "Protège, perçoit et refroidit",
+      "dailyFact": "Élimine environ 500 millions de cellules",
+      "medical": "Trois couches - épiderme, derme et hypoderme - ont chacune un rôle distinct.",
+      "bloodSupply": "Plexus vasculaire dermique",
+      "funFact": "Un seul centimètre carré peut contenir des centaines de glandes sudoripares et des mètres de vaisseaux sanguins.",
+      "tissue": "Couches épidermiques",
+      "comparison": "Peau vs. intestin",
+      "conditions": ["Eczéma", "Psoriasis", "Mélanome", "Acné vulgaire", "Cellulite infectieuse", "Dermatite de contact", "Rosacée", "Vitiligo"],
+      "hotspots": {
+        "epidermis": {"label": "Épiderme", "detail": "Couche protectrice externe"},
+        "dermis": {"label": "Derme", "detail": "Nerfs, vaisseaux et glandes"},
+        "hypodermis": {"label": "Hypoderme", "detail": "Graisse et isolation"},
+        "follicle": {"label": "Follicule pileux", "detail": "Ancre chaque poil"}
+      }
+    }
+  }
+}

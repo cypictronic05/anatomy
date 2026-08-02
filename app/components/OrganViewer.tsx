@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import type { Hotspot, Organ } from "../lib/anatomy-data";
 import type { AnatomyViewer } from "../lib/three/viewer";
+import { useI18n } from "./I18nProvider";
 
 type Props = {
   organ: Organ;
@@ -24,6 +25,7 @@ type Props = {
 };
 
 export function OrganViewer({ organ, autoRotate, onAutoRotate, compare, onCompare }: Props) {
+  const { t } = useI18n();
   const mountRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<AnatomyViewer | null>(null);
   const organRef = useRef(organ);
@@ -112,21 +114,21 @@ export function OrganViewer({ organ, autoRotate, onAutoRotate, compare, onCompar
   };
 
   const tools = [
-    { id: "rotate", label: "Rotate", icon: RotateCcw },
-    { id: "zoom", label: "Zoom", icon: Search },
-    { id: "isolate", label: "Isolate", icon: CircleDashed },
-    { id: "section", label: "Cross-section", icon: ScanLine },
-    { id: "layers", label: "Layers", icon: Layers3 },
-    { id: "compare", label: "Compare", icon: Box },
-    { id: "reset", label: "Reset", icon: RotateCcw },
+    { id: "rotate", label: t("viewer.tools.rotate"), icon: RotateCcw },
+    { id: "zoom", label: t("viewer.tools.zoom"), icon: Search },
+    { id: "isolate", label: t("viewer.tools.isolate"), icon: CircleDashed },
+    { id: "section", label: t("viewer.tools.section"), icon: ScanLine },
+    { id: "layers", label: t("viewer.tools.layers"), icon: Layers3 },
+    { id: "compare", label: t("viewer.tools.compare"), icon: Box },
+    { id: "reset", label: t("viewer.tools.reset"), icon: RotateCcw },
   ];
 
   return (
-    <section className="viewer-shell" aria-label={`${organ.name} interactive viewer`}>
+    <section className="viewer-shell" aria-label={t("viewer.ariaLabel", { organName: organ.name })}>
       <div className="viewer-glow" style={{ "--organ-accent": organ.accent } as React.CSSProperties} />
       <div ref={mountRef} className="three-mount" />
 
-      <div className="viewer-tools" aria-label="3D viewer tools">
+      <div className="viewer-tools" aria-label={t("viewer.toolsLabel")}>
         {tools.map(({ id, label, icon: Icon }) => (
           <button
             key={id}
@@ -142,15 +144,15 @@ export function OrganViewer({ organ, autoRotate, onAutoRotate, compare, onCompar
         ))}
       </div>
 
-      <aside className="tip-note" aria-label="Viewer instructions">
-        <span><Sparkles size={15} /> Tip</span>
-        <p>Drag to rotate<br />Scroll to zoom<br />Click a dot to learn more</p>
+      <aside className="tip-note" aria-label={t("viewer.instructionsLabel")}>
+        <span><Sparkles size={15} /> {t("viewer.tip")}</span>
+        <p>{t("viewer.tipBody")}</p>
       </aside>
 
       {selected && (
         <div className="hotspot-callout" ref={calloutRef} data-side="right">
           <div className="callout-body" style={{ "--hotspot-color": selected.color } as React.CSSProperties}>
-            <button className="callout-close" type="button" onClick={() => viewerRef.current?.clearSelection()} aria-label="Close">
+            <button className="callout-close" type="button" onClick={() => viewerRef.current?.clearSelection()} aria-label={t("common.close")}>
               <X size={13} />
             </button>
             <b>{selected.label}</b>
@@ -169,18 +171,18 @@ export function OrganViewer({ organ, autoRotate, onAutoRotate, compare, onCompar
       {loading && slowLoad && (
         <div className="model-loader" role="status" aria-live="polite">
           <div className="loader-orbit"><Maximize2 size={20} /></div>
-          <strong>Preparing the {organ.name.toLowerCase()}</strong>
+          <strong>{t("viewer.preparing", { organName: organ.name })}</strong>
           <span>{Math.max(8, Math.round(progress * 100))}%</span>
         </div>
       )}
 
       <button className="auto-rotate" type="button" onClick={() => onAutoRotate(!autoRotate)} aria-pressed={autoRotate}>
-        <RotateCcw size={14} /> Auto rotate
+        <RotateCcw size={14} /> {t("viewer.autoRotate")}
         <span className={`switch ${autoRotate ? "on" : ""}`}><i /></span>
       </button>
 
       <div className="view-caption">
-        <span>3D specimen · click a dot to explore</span>
+        <span>{t("viewer.caption")}</span>
         <strong>{organ.scientificName}</strong>
       </div>
     </section>
