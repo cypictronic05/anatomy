@@ -29,6 +29,13 @@ import { useI18n } from "./I18nProvider";
 import { organBases, type Organ, type OrganId } from "../lib/anatomy-data";
 
 type Modal = "lesson" | "quiz" | "animation" | "system" | null;
+type TranslatedHotspot = { label: string; detail: string };
+type TranslatedOrgan = Omit<
+  Organ,
+  "id" | "scientificName" | "model" | "icon" | "accent" | "illustrated" | "hotspots"
+> & {
+  hotspots: Record<string, TranslatedHotspot>;
+};
 
 function OrganArt({
   organ,
@@ -327,13 +334,15 @@ function LearningModal({ type, organ, onClose }: { type: Exclude<Modal, null>; o
 }
 
 function localizeOrgans(messages: Messages): Organ[] {
+  const organMessages = messages.organs as Record<OrganId, TranslatedOrgan>;
+
   return organBases.map((base) => {
-    const content = messages.organs[base.id];
+    const content = organMessages[base.id];
     return {
       ...base,
       ...content,
       hotspots: base.hotspots.map((hotspot) => {
-        const translated = content.hotspots[hotspot.id as keyof typeof content.hotspots];
+        const translated = content.hotspots[hotspot.id];
         return { ...hotspot, label: translated.label, detail: translated.detail };
       }),
     };

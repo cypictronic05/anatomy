@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Check, ChevronDown, Languages } from "lucide-react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { localeCookieName, locales, localizePathname, type Locale } from "../../i18n/config";
 import { useI18n } from "./I18nProvider";
 
@@ -15,7 +15,6 @@ export function LanguageSwitcher() {
   const rootRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const languageName = messages.language.names[locale];
 
   useEffect(() => {
@@ -47,8 +46,7 @@ export function LanguageSwitcher() {
     setSelectedLocale(nextLocale);
     setOpen(false);
 
-    const query = searchParams.toString();
-    router.replace(`${localizePathname(pathname, nextLocale)}${query ? `?${query}` : ""}`);
+    router.replace(`${localizePathname(pathname, nextLocale)}${window.location.search}`);
   };
 
   return (

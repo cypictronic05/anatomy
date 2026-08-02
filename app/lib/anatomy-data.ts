@@ -33,7 +33,7 @@ export type OrganBase = {
   hotspots: HotspotBase[];
 };
 
-export type Organ = OrganBase & {
+export type Organ = Omit<OrganBase, "hotspots"> & {
   name: string;
   system: string;
   description: string;
