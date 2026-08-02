@@ -10,6 +10,7 @@ import {
   ChevronDown,
   CircleHelp,
   Compass,
+  ExternalLink,
   FileText,
   Heart,
   LibraryBig,
@@ -36,6 +37,13 @@ type TranslatedOrgan = Omit<
 > & {
   hotspots: Record<string, TranslatedHotspot>;
 };
+const CREDIT_LANGUAGES = [
+  { locale: "en", flag: "🇺🇸" },
+  { locale: "es", flag: "🇪🇸" },
+  { locale: "fr", flag: "🇫🇷" },
+  { locale: "de", flag: "🇩🇪" },
+  { locale: "zh-CN", flag: "🇨🇳" },
+] as const satisfies readonly { locale: keyof Messages["language"]["names"]; flag: string }[];
 
 function OrganArt({
   organ,
@@ -270,6 +278,33 @@ export function AnatomyApp() {
           <button type="button" onClick={() => setModal("system")}>{t("cards.seeSystem")} <ArrowRight size={14} /></button>
         </article>
       </section>
+
+      <footer className="credits-footer" aria-label={t("credits.ariaLabel")}>
+        <div className="credits-copy">
+          <span>{t("credits.kicker")}</span>
+          <strong>{t("credits.title")}</strong>
+        </div>
+        <div className="credits-links">
+          <a href="https://github.com/thebuggeddev" target="_blank" rel="noopener noreferrer">
+            <ExternalLink size={15} />
+            <span>{t("credits.createdBy")}</span>
+            <strong>thebuggeddev</strong>
+          </a>
+          <a href="https://github.com/cypictronic05" target="_blank" rel="noopener noreferrer">
+            <ExternalLink size={15} />
+            <span>{t("credits.translatedBy")}</span>
+            <strong>cypictronic05</strong>
+          </a>
+        </div>
+        <div className="credits-languages" aria-label={t("credits.languagesLabel")}>
+          {CREDIT_LANGUAGES.map(({ locale, flag }) => (
+            <span key={locale}>
+              <b>{flag}</b>
+              {messages.language.names[locale]}
+            </span>
+          ))}
+        </div>
+      </footer>
 
       {modal && <LearningModal type={modal} organ={organ} onClose={() => setModal(null)} />}
       {mobileLibrary && <button type="button" className="drawer-backdrop" aria-label={t("common.closeLibrary")} onClick={() => setMobileLibrary(false)} />}

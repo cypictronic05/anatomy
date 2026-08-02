@@ -130,6 +130,14 @@
     "locationFigure": "{organName} an seiner Lage im {system}",
     "illustration": "Illustration von {organName}"
   },
+  "credits": {
+    "ariaLabel": "Projektcredits",
+    "kicker": "Open-Source-Anatomie-Atelier",
+    "title": "Credits und Sprachausgaben",
+    "createdBy": "Erstellt von",
+    "translatedBy": "Übersetzt von",
+    "languagesLabel": "Verfügbare Sprachen"
+  },
   "organs": {
     "heart": {
       "name": "Herz",

@@ -501,6 +501,80 @@ button.organ-card-image:focus-visible { outline: 2px solid #8b6fc4; outline-offs
    pushed down by an auto top margin. */
 .system-visual { overflow: hidden; border-radius: 12px; }
 
+.credits-footer {
+  max-width: 1720px;
+  margin: 18px auto 0;
+  padding: 18px 20px;
+  display: grid;
+  grid-template-columns: minmax(220px, .9fr) minmax(360px, 1.2fr) minmax(260px, 1fr);
+  align-items: center;
+  gap: 18px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(90deg, rgba(255,251,244,.18), rgba(255,255,255,.44), rgba(255,251,244,.18));
+}
+.credits-copy { display: flex; flex-direction: column; gap: 4px; }
+.credits-copy span {
+  color: var(--lavender);
+  font: italic 12px "Comic Sans MS", "Bradley Hand", cursive;
+}
+.credits-copy strong {
+  font: 500 22px/1.05 var(--font-serif), serif;
+}
+.credits-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.credits-links a {
+  min-height: 46px;
+  padding: 10px 12px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "icon label" "icon name";
+  align-items: center;
+  column-gap: 9px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255,255,255,.28);
+  color: inherit;
+  text-decoration: none;
+}
+.credits-links a:hover { background: rgba(238,124,106,.07); border-color: rgba(235,124,107,.32); }
+.credits-links svg { grid-area: icon; color: var(--coral); }
+.credits-links span {
+  grid-area: label;
+  color: var(--muted);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: .11em;
+}
+.credits-links strong {
+  grid-area: name;
+  font: 600 13px var(--font-serif), serif;
+  overflow-wrap: anywhere;
+}
+.credits-languages {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.credits-languages span {
+  min-height: 30px;
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid rgba(117,91,70,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.32);
+  color: #5d5149;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.credits-languages b { font-size: 14px; line-height: 1; }
+
 .compare-strip { position: fixed; z-index: 20; left: 50%; bottom: 22px; transform: translateX(-50%); width: min(760px, calc(100% - 28px)); padding: 13px 16px; display: grid; grid-template-columns: 1fr auto 1fr 1.5fr auto; align-items: center; gap: 14px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,251,245,.94); backdrop-filter: blur(18px); box-shadow: 0 22px 60px rgba(64,43,29,.2); }
 .compare-strip > div { display: flex; flex-direction: column; }
 .compare-strip .compare-organ { position: relative; padding-left: 45px; min-height: 38px; justify-content: center; }
@@ -547,6 +621,8 @@ button.organ-card-image:focus-visible { outline: 2px solid #8b6fc4; outline-offs
   .search-box { display: none; }
   .workspace { grid-template-columns: 250px minmax(500px,1fr) 300px; height: min(700px, calc(100vh - 105px)); }
   .learning-cards { grid-template-columns: repeat(3, 1fr); --art-max: 300px; }
+  .credits-footer { grid-template-columns: 1fr; }
+  .credits-languages { justify-content: flex-start; }
 }
 
 @media (max-width: 1040px) {
@@ -590,6 +666,8 @@ button.organ-card-image:focus-visible { outline: 2px solid #8b6fc4; outline-offs
   .organ-item { min-height: 76px; }
   .info-panel { height: auto; margin-top: 10px; display: block; border-radius: 22px; }
   .learning-cards { grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; --art-max: 320px; }
+  .credits-footer { margin-top: 10px; padding: 16px 4px; }
+  .credits-links { grid-template-columns: 1fr; }
   .learning-cards article { border-radius: 20px; }
   .curiosity-card { display: none !important; }
   .viewer-tools { top: auto; bottom: 12px; left: 10px; right: 10px; transform: none; width: auto; height: 61px; flex-direction: row; justify-content: space-around; padding: 4px; border-radius: 15px; }

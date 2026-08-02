@@ -130,6 +130,14 @@
     "locationFigure": "{organName} 在 {system} 中的位置示意",
     "illustration": "{organName} 插图"
   },
+  "credits": {
+    "ariaLabel": "项目致谢",
+    "kicker": "开源解剖工作室",
+    "title": "致谢与语言版本",
+    "createdBy": "创建者",
+    "translatedBy": "翻译者",
+    "languagesLabel": "可用语言"
+  },
   "organs": {
     "heart": {
       "name": "心脏",
